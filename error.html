@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <title>page not found :)</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://sv1.picz.in.th/images/2022/12/20/JzVn0v.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+p {
+ text-align:center
+}
+
+.error {
+    color: rgb(90, 158, 178);
+    font-style: oblique;
+    font-size: 140px;
+    position: absolute;
+    top: 39.8%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+.pagenotf {
+    color: rgb(217, 236, 242);
+    font-style: oblique;
+    font-size: 70px;
+    position: absolute;
+    top: 48%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .backbutton {
+    background-color:rgb(90, 158, 178);
+    color:whitesmoke;
+    font-style: oblique;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 32px;
+    position: absolute;
+    top: 37%;
+    left:52%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+  }
+
+  .backbutton:hover {
+  background-color: whitesmoke;
+  color: rgb(90, 158, 178);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="backbutton">
+<backbutton onclick="history.back()">go back</backbutton>
+</div>
+
+<div class="error">404</div>
+<div class="pagenotf">page not found</div>
+
+
+</body>
+</html>
